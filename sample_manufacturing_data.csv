@@ -1,0 +1,10 @@
+Process,Activity,Start Time,End Time,Duration (min),Time Type,Reason
+Cutting,Cutting material,08:00,08:20,20,Processing,-
+Cutting,Material waiting,08:20,08:30,10,Waiting,Material not available
+Machining,CNC machining,08:30,09:00,30,Processing,-
+Machining,Machine stopped,09:00,09:10,10,Downtime,Machine issue
+Inspection,Inspection waiting,09:10,09:20,10,Waiting,Inspector unavailable
+Inspection,Inspection,09:20,09:25,5,Inspection,Quality check
+Finishing,Move to finishing,09:25,09:30,5,Movement,Transport
+Finishing,Finishing work,09:30,09:45,15,Processing,-
+Finishing,Rework,09:45,10:00,15,Rework,Correction required
